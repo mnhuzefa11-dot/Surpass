@@ -1,5 +1,6 @@
 *.iml
 .gradle/
+image-search/
 /local.properties
 .DS_Store
 /build/

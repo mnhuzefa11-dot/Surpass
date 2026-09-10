@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- "No entry" ring -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M54,24 a30,30 0 1,0 0.0001,0 z M54,33 a21,21 0 1,1 -0.0001,0 z" />
+    <!-- Diagonal bar -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M35.5,63.5 L63.5,35.5 L69,41 L41,69 z" />
+</vector>

@@ -1,30 +1,35 @@
 # Surpass
 
-A study-focus app: run a timer for a study session, and Surpass locks you out of
-whichever apps you've marked as distracting until the session ends.
+A study-focus app inspired by **Block – App & Site Blocker** (the green one on the
+Play Store): run a timer for a study session, and Surpass aggressively locks you
+out of whichever apps you've marked as distracting until the session ends.
 
-## What's built (Phase 1-4)
+## Features
 
 - **Timer**: pick a preset duration (25/50/90 min) or enter a custom number of
   minutes, start a session, watch the countdown. Runs as a foreground service so
   it survives screen-off and backgrounding.
-- **App blocking**: pick any installed app to block. While a session is active,
-  opening a blocked app immediately shows a full-screen "blocked" overlay instead.
-  This uses Android's Accessibility Service API — the same mechanism apps like
-  Block/One Sec use — since Android does not let apps silently block other apps.
+- **Aggressive app blocking**: pick any installed app to block. While a session
+  is active, opening a blocked app immediately shows a full-screen "focus
+  shield" overlay with no exit button and no back navigation — it only
+  disappears when the session ends. Uses Android's Accessibility Service API,
+  the same mechanism Block / One Sec use, since Android does not let apps
+  silently block other apps.
 - **Recurring schedules**: set a study block to auto-start at a specific time on
   chosen days of the week (e.g. "Anatomy, 8:00 AM, Mon/Wed/Fri, 50 min"). Uses
   exact alarms so it fires at the precise minute, and re-arms itself after each
   firing and after a device reboot.
 - **Analytics**: current streak (consecutive days studied), all-time hours,
   total completed sessions, and a 7-day bar chart — all computed from local
-  session history, no extra chart library needed.
-- **Local history**: every session (completed or ended early) is saved to a local
-  Room database.
+  session history, no chart library needed.
+- **Local history**: every session (completed or ended early) is saved to a
+  local Room database.
+- **Green, Block-style theme** with an adaptive launcher icon (green background,
+  white "no entry" glyph).
 
-Not yet built: per-schedule blocked-app lists (schedules currently use the same
-global block list you set on the Blocked Apps screen), and a way to edit an
-existing schedule (currently delete + re-add).
+Not yet built: per-schedule blocked-app lists (schedules use the same global
+block list you set on the Blocked Apps screen), a way to edit an existing
+schedule (currently delete + re-add), and website blocking.
 
 ## Building the APK (no PC required)
 
@@ -32,20 +37,10 @@ This project has **no local Gradle wrapper checked in on purpose** — the GitHu
 Actions workflow installs Gradle itself in the cloud, so you never need Android
 Studio or a wrapper jar to get an APK.
 
-1. **Create a new GitHub repo** (e.g. `surpass`), and push everything in this
-   folder to it. If you're doing this from Termux like you did for Budspro:
-   ```
-   cd surpass
-   git init
-   git add .
-   git commit -m "Initial Surpass scaffold"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/surpass.git
-   git push -u origin main
-   ```
-2. Go to your repo on GitHub → the **Actions** tab. A workflow called
-   **"Build Surpass APK"** will run automatically on push (or trigger it manually
-   with the "Run workflow" button).
+1. Push this repo to GitHub (any branch matching `main` or `arena/**` triggers
+   the workflow; you can also trigger it manually with "Run workflow").
+2. Go to your repo on GitHub → the **Actions** tab → open the
+   **"Build Surpass APK"** run.
 3. When it finishes (green check), open the run → scroll to **Artifacts** →
    download `surpass-debug-apk`. Unzip it on your phone to get `app-debug.apk`,
    then install it (you'll need to allow "install unknown apps" for whichever
@@ -67,9 +62,10 @@ Schedules screen shows a "Grant permission" button when this is missing.
 ```
 app/src/main/java/com/surpass/
 ├── MainActivity.kt              # Screen-state navigation (Home/Timer/BlockedApps/Schedule/Analytics)
+├── SurpassApp.kt                # Application class + AppContainer (hand-wired dependencies)
 ├── data/
 │   ├── database/                # Room entities, DAOs, database
-│   └── repository/               # Session, BlockedApp, and Schedule repositories
+│   └── repository/              # Session, BlockedApp, and Schedule repositories
 ├── service/
 │   ├── SessionState.kt          # Shared in-memory state (session active? which apps blocked?)
 │   ├── TimerService.kt          # Foreground service running the countdown
@@ -78,13 +74,12 @@ app/src/main/java/com/surpass/
 │   ├── ScheduleManager.kt       # AlarmManager wrapper for recurring schedules
 │   ├── ScheduleAlarmReceiver.kt # Fires a scheduled session, reschedules the next one
 │   ├── BootReceiver.kt          # Re-arms schedules after device reboot
-│   └── PermissionUtils.kt       # Checks if the accessibility service is enabled
-├── viewmodel/                   # TimerViewModel, BlockedAppsViewModel, ScheduleViewModel, AnalyticsViewModel
+│   └── PermissionUtils.kt       # Checks accessibility + exact-alarm permissions
+├── viewmodel/                   # BlockedAppsViewModel, ScheduleViewModel, AnalyticsViewModel
 └── ui/
     ├── screens/                 # Home, Timer, BlockedApps, Schedule, Analytics
-    └── theme/                   # Compose Material3 theme
+    └── theme/                   # Compose Material3 green theme
 ```
 
-No Hilt/Dagger on purpose — dependencies are wired by hand (see the ViewModels)
-to keep the build simple and avoid the kind of annotation-processor version
-mismatches that caused Budspro's Gradle errors.
+No Hilt/Dagger on purpose — dependencies are wired by hand (see `AppContainer`)
+to keep the build simple.

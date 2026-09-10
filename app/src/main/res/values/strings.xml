@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Surpass</string>
+    <string name="accessibility_service_description">Surpass uses this service to detect when you open a blocked app so it can show your focus shield instead. It only watches which app is in the foreground; it never reads your content.</string>
+    <string name="session_channel_name">Focus sessions</string>
+    <string name="session_channel_description">Ongoing study session countdown</string>
+</resources>
