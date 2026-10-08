@@ -1,0 +1,933 @@
+{
+  "_readme": "EDIT THIS FILE to update the media kit. Every number, name and line of copy lives here. Then run: node kit/build-html.mjs && node kit/build-pdf.mjs  --  Set meta.draft to false once real numbers are in (this removes the 'sample data' banner).",
+  "meta": {
+    "draft": true,
+    "kicker": "Pinterest Media Kit",
+    "edition": "2026",
+    "dataWindow": "1 Aug – 30 Sep 2026",
+    "dataSource": "Pinterest Analytics · 90-day report",
+    "footerNote": "All figures verified from Pinterest Analytics. Rates calculated on impressions."
+  },
+  "profile": {
+    "name": "Aanya Sharma",
+    "handle": "@aanyastyles",
+    "url": "pinterest.com/aanyastyles",
+    "niche": "Home Décor & Small-Space Living",
+    "tagline": "Helping India make small homes look expensive.",
+    "bio": "I create save-worthy decor guides for renters and first-home owners — real budgets, real rooms, real before-and-afters. My audience doesn't just scroll; they save, plan and buy.",
+    "location": "Seoni, Madhya Pradesh · India",
+    "avatarInitials": "AS",
+    "since": "2019",
+    "boards": 24,
+    "pins": "1,340",
+    "followers": "48.2K"
+  },
+  "heroStats": [
+    {
+      "label": "Monthly views",
+      "value": "2.41M",
+      "delta": "+18% QoQ",
+      "spark": [
+        0.62,
+        0.71,
+        0.69,
+        0.83,
+        0.95,
+        1.02,
+        1.18,
+        1.36,
+        1.52,
+        1.74,
+        2.08,
+        2.41
+      ]
+    },
+    {
+      "label": "Saves",
+      "value": "96.4K",
+      "delta": "+24% QoQ",
+      "spark": [
+        22,
+        26,
+        25,
+        31,
+        36,
+        39,
+        45,
+        52,
+        58,
+        68,
+        81,
+        96
+      ]
+    },
+    {
+      "label": "Followers",
+      "value": "48.2K",
+      "delta": "+12.4% in 90 days",
+      "spark": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        42,
+        43,
+        45,
+        46.6,
+        48.2
+      ]
+    },
+    {
+      "label": "Save rate",
+      "value": "5.2%",
+      "delta": "vs 1.1% platform avg",
+      "spark": [
+        3.4,
+        3.6,
+        3.5,
+        3.9,
+        4.1,
+        4.3,
+        4.4,
+        4.7,
+        4.9,
+        5.0,
+        5.1,
+        5.2
+      ]
+    }
+  ],
+  "snapshot": {
+    "windowLabel": "Last 90 days",
+    "cards": [
+      {
+        "label": "Impressions",
+        "value": "1.86M",
+        "delta": 21.3,
+        "note": "Pins shown in feeds",
+        "spark": [
+          0.9,
+          1.02,
+          1.18,
+          1.24,
+          1.31,
+          1.4,
+          1.49,
+          1.58,
+          1.66,
+          1.72,
+          1.8,
+          1.86
+        ]
+      },
+      {
+        "label": "Saves",
+        "value": "96.4K",
+        "delta": 24.1,
+        "note": "Intent to buy later",
+        "spark": [
+          45,
+          52,
+          58,
+          61,
+          66,
+          70,
+          75,
+          80,
+          85,
+          89,
+          93,
+          96.4
+        ]
+      },
+      {
+        "label": "Pin clicks",
+        "value": "121.5K",
+        "delta": 16.8,
+        "note": "Clicks through to content",
+        "spark": [
+          68,
+          74,
+          80,
+          84,
+          88,
+          94,
+          99,
+          104,
+          110,
+          114,
+          118,
+          121.5
+        ]
+      },
+      {
+        "label": "Followers",
+        "value": "48.2K",
+        "delta": 12.4,
+        "note": "Organic, zero paid",
+        "spark": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          39,
+          40,
+          42,
+          43,
+          45,
+          46.6,
+          48.2
+        ]
+      },
+      {
+        "label": "Save rate",
+        "value": "5.2%",
+        "delta": 9.6,
+        "note": "Saves ÷ impressions",
+        "spark": [
+          3.4,
+          3.6,
+          3.5,
+          3.9,
+          4.1,
+          4.3,
+          4.4,
+          4.7,
+          4.9,
+          5.0,
+          5.1,
+          5.2
+        ]
+      },
+      {
+        "label": "Monthly views",
+        "value": "2.41M",
+        "delta": 18.0,
+        "note": "Best month on record",
+        "spark": [
+          0.62,
+          0.71,
+          0.69,
+          0.83,
+          0.95,
+          1.02,
+          1.18,
+          1.36,
+          1.52,
+          1.74,
+          2.08,
+          2.41
+        ]
+      }
+    ],
+    "monthly": [
+      {
+        "month": "Nov",
+        "views": 0.62,
+        "saves": 22.1,
+        "clicks": 28.4
+      },
+      {
+        "month": "Dec",
+        "views": 0.71,
+        "saves": 26.4,
+        "clicks": 31.2
+      },
+      {
+        "month": "Jan",
+        "views": 0.69,
+        "saves": 25.0,
+        "clicks": 30.6
+      },
+      {
+        "month": "Feb",
+        "views": 0.83,
+        "saves": 31.2,
+        "clicks": 35.9
+      },
+      {
+        "month": "Mar",
+        "views": 0.95,
+        "saves": 36.4,
+        "clicks": 40.1
+      },
+      {
+        "month": "Apr",
+        "views": 1.02,
+        "saves": 39.0,
+        "clicks": 43.8
+      },
+      {
+        "month": "May",
+        "views": 1.18,
+        "saves": 45.2,
+        "clicks": 49.6
+      },
+      {
+        "month": "Jun",
+        "views": 1.36,
+        "saves": 52.1,
+        "clicks": 55.3
+      },
+      {
+        "month": "Jul",
+        "views": 1.52,
+        "saves": 58.4,
+        "clicks": 61.7
+      },
+      {
+        "month": "Aug",
+        "views": 1.74,
+        "saves": 68.2,
+        "clicks": 70.4
+      },
+      {
+        "month": "Sep",
+        "views": 2.08,
+        "saves": 81.3,
+        "clicks": 82.9
+      },
+      {
+        "month": "Oct",
+        "views": 2.41,
+        "saves": 96.4,
+        "clicks": 92.1
+      }
+    ]
+  },
+  "topPins": [
+    {
+      "rank": 1,
+      "title": "Small Bedroom Storage Hacks That Actually Work",
+      "board": "Small Space Living",
+      "format": "Idea Pin",
+      "impressions": 412000,
+      "saves": 21400,
+      "clicks": 26800,
+      "published": "Aug 2026",
+      "palette": [
+        "#7A1F2B",
+        "#E0A899"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Warm Minimal Living Room Under ₹30,000",
+      "board": "Home Decor Ideas",
+      "format": "Static Pin",
+      "impressions": 388000,
+      "saves": 19200,
+      "clicks": 23100,
+      "published": "Sep 2026",
+      "palette": [
+        "#1E3A34",
+        "#C7B08A"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "7 Renter-Friendly Wall Decor Ideas",
+      "board": "Home Decor Ideas",
+      "format": "Static Pin",
+      "impressions": 341000,
+      "saves": 17600,
+      "clicks": 19400,
+      "published": "Jul 2026",
+      "palette": [
+        "#2B3A55",
+        "#B9C6D6"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Monsoon-Proof Balcony Makeover Guide",
+      "board": "Balcony & Garden",
+      "format": "Video Pin",
+      "impressions": 296000,
+      "saves": 14800,
+      "clicks": 16200,
+      "published": "Jul 2026",
+      "palette": [
+        "#3F5D4A",
+        "#CFE0C3"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Kitchen Organising: The 15-Minute Reset",
+      "board": "Kitchen & Dining",
+      "format": "Idea Pin",
+      "impressions": 271000,
+      "saves": 13100,
+      "clicks": 15900,
+      "published": "Sep 2026",
+      "palette": [
+        "#6B4A2F",
+        "#E6D2B5"
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Indian Festival Decor Lookbook",
+      "board": "Festival Decor",
+      "format": "Video Pin",
+      "impressions": 254000,
+      "saves": 12900,
+      "clicks": 14100,
+      "published": "Oct 2026",
+      "palette": [
+        "#7C2D12",
+        "#F0B27A"
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Budget Pooja Room Styling Ideas",
+      "board": "Home Decor Ideas",
+      "format": "Static Pin",
+      "impressions": 231000,
+      "saves": 11400,
+      "clicks": 12800,
+      "published": "Aug 2026",
+      "palette": [
+        "#8A6A1F",
+        "#EFDDA8"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Before & After: A 600 sq ft Flat Tour",
+      "board": "Small Space Living",
+      "format": "Video Pin",
+      "impressions": 208000,
+      "saves": 10200,
+      "clicks": 11600,
+      "published": "Jun 2026",
+      "palette": [
+        "#4B3F72",
+        "#C9C2E8"
+      ]
+    }
+  ],
+  "topBoards": [
+    {
+      "name": "Home Decor Ideas",
+      "views": 412000,
+      "pins": 320,
+      "followers": "12.4K",
+      "trend": 18
+    },
+    {
+      "name": "Small Space Living",
+      "views": 268000,
+      "pins": 214,
+      "followers": "6.1K",
+      "trend": 22
+    },
+    {
+      "name": "Bedroom Inspiration",
+      "views": 214000,
+      "pins": 186,
+      "followers": "5.2K",
+      "trend": 11
+    },
+    {
+      "name": "Kitchen & Dining",
+      "views": 176000,
+      "pins": 154,
+      "followers": "4.3K",
+      "trend": 14
+    },
+    {
+      "name": "Balcony & Garden",
+      "views": 132000,
+      "pins": 120,
+      "followers": "3.1K",
+      "trend": 9
+    },
+    {
+      "name": "Festival Decor",
+      "views": 118000,
+      "pins": 96,
+      "followers": "2.8K",
+      "trend": 27
+    },
+    {
+      "name": "DIY & Budget Projects",
+      "views": 96000,
+      "pins": 88,
+      "followers": "2.4K",
+      "trend": 6
+    },
+    {
+      "name": "Cleaning & Organising",
+      "views": 74000,
+      "pins": 76,
+      "followers": "1.9K",
+      "trend": 13
+    },
+    {
+      "name": "Home Office Nooks",
+      "views": 61000,
+      "pins": 64,
+      "followers": "1.4K",
+      "trend": 4
+    }
+  ],
+  "demographics": {
+    "gender": [
+      {
+        "label": "Women",
+        "pct": 78,
+        "color": "#C2475B"
+      },
+      {
+        "label": "Men",
+        "pct": 22,
+        "color": "#2B3A55"
+      }
+    ],
+    "age": [
+      {
+        "label": "18–24",
+        "pct": 26
+      },
+      {
+        "label": "25–34",
+        "pct": 41
+      },
+      {
+        "label": "35–44",
+        "pct": 21
+      },
+      {
+        "label": "45–54",
+        "pct": 8
+      },
+      {
+        "label": "55+",
+        "pct": 4
+      }
+    ],
+    "countries": [
+      {
+        "label": "India",
+        "pct": 62
+      },
+      {
+        "label": "United States",
+        "pct": 14
+      },
+      {
+        "label": "United Kingdom",
+        "pct": 7
+      },
+      {
+        "label": "UAE",
+        "pct": 5
+      },
+      {
+        "label": "Canada",
+        "pct": 4
+      },
+      {
+        "label": "Rest of world",
+        "pct": 8
+      }
+    ],
+    "cities": [
+      {
+        "label": "Mumbai",
+        "pct": 11.4
+      },
+      {
+        "label": "Delhi NCR",
+        "pct": 10.2
+      },
+      {
+        "label": "Bengaluru",
+        "pct": 8.6
+      },
+      {
+        "label": "Pune",
+        "pct": 6.1
+      },
+      {
+        "label": "Hyderabad",
+        "pct": 5.4
+      },
+      {
+        "label": "Chennai",
+        "pct": 4.2
+      }
+    ],
+    "devices": [
+      {
+        "label": "Mobile",
+        "pct": 91
+      },
+      {
+        "label": "Desktop",
+        "pct": 7
+      },
+      {
+        "label": "Tablet",
+        "pct": 2
+      }
+    ],
+    "insight": "A 25–34, mobile-first Indian audience in metro homes — planning purchases, saving ideas, and shopping for décor on a budget.",
+    "seasonality": [
+      {
+        "label": "Jan",
+        "value": 62
+      },
+      {
+        "label": "Feb",
+        "value": 58
+      },
+      {
+        "label": "Mar",
+        "value": 66
+      },
+      {
+        "label": "Apr",
+        "value": 61
+      },
+      {
+        "label": "May",
+        "value": 70
+      },
+      {
+        "label": "Jun",
+        "value": 64
+      },
+      {
+        "label": "Jul",
+        "value": 72
+      },
+      {
+        "label": "Aug",
+        "value": 78
+      },
+      {
+        "label": "Sep",
+        "value": 84
+      },
+      {
+        "label": "Oct",
+        "value": 97
+      },
+      {
+        "label": "Nov",
+        "value": 88
+      },
+      {
+        "label": "Dec",
+        "value": 76
+      }
+    ],
+    "interests": [
+      "Home décor",
+      "DIY & crafts",
+      "Interior design",
+      "Organisation",
+      "Wedding ideas",
+      "Small-space living"
+    ]
+  },
+  "pillars": [
+    {
+      "name": "Home décor & styling",
+      "share": 38,
+      "color": "#C2475B",
+      "desc": "Room tours, styling rules, palette guides"
+    },
+    {
+      "name": "Small-space solutions",
+      "share": 24,
+      "color": "#2B3A55",
+      "desc": "Storage, layouts, renter-friendly fixes"
+    },
+    {
+      "name": "DIY & budget projects",
+      "share": 18,
+      "color": "#B98A2E",
+      "desc": "Under-₹5,000 upgrades, weekend builds"
+    },
+    {
+      "name": "Organising & lifestyle",
+      "share": 12,
+      "color": "#5C7A6B",
+      "desc": "Systems, routines, 15-minute resets"
+    },
+    {
+      "name": "Festive & seasonal",
+      "share": 8,
+      "color": "#8C6BAE",
+      "desc": "Diwali, weddings, monsoon refreshes"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Static pins",
+      "share": 58,
+      "color": "#C2475B"
+    },
+    {
+      "name": "Video pins",
+      "share": 31,
+      "color": "#2B3A55"
+    },
+    {
+      "name": "Idea pins",
+      "share": 11,
+      "color": "#B98A2E"
+    }
+  ],
+  "cadence": {
+    "label": "Publishing cadence",
+    "note": "31 fresh pins / month, consistently",
+    "weeks": [
+      [
+        3,
+        2,
+        3,
+        2,
+        3,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      [
+        3,
+        2,
+        3,
+        3,
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        2,
+        3,
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        3,
+        1,
+        3
+      ],
+      [
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        3,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3
+      ]
+    ]
+  },
+  "whyMe": [
+    {
+      "title": "Save-led, not scroll-led",
+      "body": "A 5.2% save rate means my audience treats my pins as shopping lists — your product stays in their plans for weeks."
+    },
+    {
+      "title": "Built for the Indian home",
+      "body": "62% of my audience is in India, across Mumbai, Delhi NCR and Bengaluru — the highest-intent décor buyers on the platform."
+    },
+    {
+      "title": "Full-funnel content",
+      "body": "I shoot, style, write and design every pin in-house. Concept to live pin in 5 working days, no agency layer."
+    },
+    {
+      "title": "Transparent reporting",
+      "body": "A post-campaign report with impressions, saves, pin clicks and saves-per-₹ within 7 days of the final pin."
+    }
+  ],
+  "packages": [
+    {
+      "tier": "The Feature",
+      "price": "₹ 18,000",
+      "unit": "per campaign",
+      "tagline": "One hero pin, made to be saved.",
+      "deliverables": [
+        "1 custom static pin (2:3)",
+        "Brand-styled concept + copy",
+        "Live for 90 days minimum",
+        "Pin-level report at day 7"
+      ],
+      "bestFor": "Product launches & first tests",
+      "featured": false
+    },
+    {
+      "tier": "The Story",
+      "price": "₹ 42,000",
+      "unit": "per campaign",
+      "tagline": "Video + statics across two boards.",
+      "deliverables": [
+        "1 video pin + 2 static pins",
+        "2 relevant boards + a pin slot",
+        "Keyword-optimised titles & copy",
+        "Reel-style cut for Instagram",
+        "Post-campaign report"
+      ],
+      "bestFor": "Seasonal & festive pushes",
+      "featured": true
+    },
+    {
+      "tier": "The Takeover",
+      "price": "₹ 85,000",
+      "unit": "per campaign",
+      "tagline": "Your brand, styled into my feed.",
+      "deliverables": [
+        "6 pins across 4 weeks",
+        "Board takeover + new board",
+        "Video pin with voiceover",
+        "Story-style cover image",
+        "Ad whitelisting, 30 days",
+        "Performance review call"
+      ],
+      "bestFor": "Always-on brand partnerships",
+      "featured": false
+    }
+  ],
+  "addons": [
+    {
+      "name": "Extra static pin",
+      "price": "₹ 6,000"
+    },
+    {
+      "name": "Extra video pin",
+      "price": "₹ 12,000"
+    },
+    {
+      "name": "Pin description SEO pack",
+      "price": "₹ 4,000"
+    },
+    {
+      "name": "Usage rights (90 days, paid ads)",
+      "price": "₹ 15,000"
+    },
+    {
+      "name": "Exclusivity in category (30 days)",
+      "price": "₹ 10,000"
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Brief & fit call",
+      "body": "20-minute call: goals, product, key dates, non-negotiables."
+    },
+    {
+      "step": "02",
+      "title": "Concepts in 3 days",
+      "body": "You approve composition, palette and copy direction."
+    },
+    {
+      "step": "03",
+      "title": "Production",
+      "body": "Shoot, styling and design. Two revision rounds included."
+    },
+    {
+      "step": "04",
+      "title": "Go live & report",
+      "body": "Pins publish on the agreed date. Numbers land within 7 days."
+    }
+  ],
+  "pastPartners": {
+    "note": "Brand collaborations available on request — including home, décor, and lifestyle labels. References and full case studies shared on a call.",
+    "categories": [
+      "Home décor",
+      "Furniture",
+      "Kitchenware",
+      "Paints & finishes",
+      "Storage",
+      "Lifestyle"
+    ]
+  },
+  "contact": {
+    "headline": "Let's build pins people save.",
+    "body": "Tell me your campaign date and goal — I'll come back with a concept and a pinned-down schedule within 48 hours.",
+    "email": "hello@aanyastyles.com",
+    "handle": "@aanyastyles",
+    "url": "pinterest.com/aanyastyles",
+    "qrTarget": "https://pinterest.com/aanyastyles"
+  }
+}

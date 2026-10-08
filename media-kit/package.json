@@ -1,0 +1,22 @@
+{
+  "name": "pinterest-media-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A print-ready Pinterest media kit for brand pitches — built from one data file.",
+  "scripts": {
+    "build": "node kit/build-pdf.mjs && node kit/build-html.mjs",
+    "pdf": "node kit/build-pdf.mjs",
+    "html": "node kit/build-html.mjs",
+    "preview": "python3 -m http.server 5173 --bind 0.0.0.0",
+    "qa": "node kit/raster.mjs pdf media-kit.pdf qa/pdf"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.80",
+    "@resvg/resvg-js": "^2.6.2",
+    "pdfjs-dist": "^5.4.149",
+    "pdfkit": "^0.17.2",
+    "qrcode": "^1.5.4",
+    "svg-to-pdfkit": "^0.1.8"
+  }
+}
